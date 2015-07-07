@@ -1,6 +1,6 @@
 {
   "name": "haro-couchbase",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Couchbase persistent storage adapter for Harō",
   "main": "lib/index.js",
   "repository": {

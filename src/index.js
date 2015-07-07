@@ -41,7 +41,7 @@ function adapter (store, op, key, data) {
 			} else if (record) {
 				defer.reject(new Error("Record not found in couchbase"));
 			} else {
-				defer.reject([]);
+				defer.resolve([]);
 			}
 		});
 	} else if (op === "remove") {

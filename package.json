@@ -1,6 +1,6 @@
 {
   "name": "haro-couchbase",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Couchbase persistent storage adapter for Harō",
   "main": "lib/index.js",
   "repository": {
@@ -39,6 +39,7 @@
   "dependencies": {
     "couchbase": "^2.0.8",
     "es6-map": "^0.1.1",
-    "es6-promise": "^2.1.1"
+    "es6-promise": "^2.1.1",
+    "tiny-defer": "^1.0.2"
   }
 }
